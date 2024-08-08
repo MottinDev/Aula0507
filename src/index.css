@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 10px; 
+}
+
+h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type='text'],
+input[type='number'],
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type='submit'] {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button[type='submit']:hover {
+  background-color: #2980b9;
+  transform: scale(1.02);
+}
+
+button[type='button'] {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button[type='button']:hover {
+  background-color: #c0392b;
+  transform: scale(1.02);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.receita .valor {
+  color: #2ecc71;
+}
+
+.despesa .valor {
+  color: #e74c3c;
+}
+
+.saldo-positivo {
+  color: #2ecc71;
+}
+
+.saldo-negativo {
+  color: #e74c3c;
+}
